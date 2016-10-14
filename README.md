@@ -1,7 +1,7 @@
 SublimeLinter-contrib-lesshint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-lesshint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-lesshint)
+[![Build Status](https://travis-ci.org/jasjuang/SublimeLinter-contrib-lesshint.svg?branch=master)](https://travis-ci.org/jasjuang/SublimeLinter-contrib-lesshint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [lesshint](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
 
