@@ -22,7 +22,12 @@ class Lesshint(NodeLinter):
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 2.1.1'
-    regex = r'^.+?:.+?: line (?P<line>\d+), col (?P<col>\d+),(?P<message>.+)'
+    regex = (
+        r'((?P<error>Error)|(?P<warning>Warning))+?:(?P<file>.+)'
+        r': line (?P<line>\d+),'
+        r' col (?P<col>\d+),'
+        r'(?P<message>.+)'
+    )
     multiline = False
     line_col_base = (1, 1)
     tempfile_suffix = 'less'
