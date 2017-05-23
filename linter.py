@@ -23,7 +23,7 @@ class Lesshint(NodeLinter):
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 2.1.1'
     regex = (
-        r'(?P<error>Error)|(?P<warning>Warning)+?:(?P<file>.+)'
+        r'((?P<error>Error)|(?P<warning>Warning))+?:(?P<file>.+)'
         r': line (?P<line>\d+),'
         r' col (?P<col>\d+),'
         r'(?P<message>.+)'
