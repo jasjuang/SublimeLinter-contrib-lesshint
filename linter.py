@@ -16,7 +16,6 @@ from SublimeLinter.lint import NodeLinter, util
 class Lesshint(NodeLinter):
     """Provides an interface to lesshint."""
 
-    syntax = 'less'
     cmd = 'lesshint @'
     executable = None
     version_args = '--version'
@@ -32,6 +31,8 @@ class Lesshint(NodeLinter):
     line_col_base = (1, 1)
     tempfile_suffix = 'less'
     error_stream = util.STREAM_BOTH
-    selectors = {}
+    defaults = {
+        selector': 'source.less'
+    }
     word_re = None
     defaults = {}
