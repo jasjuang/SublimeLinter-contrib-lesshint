@@ -32,7 +32,7 @@ class Lesshint(NodeLinter):
     tempfile_suffix = 'less'
     error_stream = util.STREAM_BOTH
     defaults = {
-        selector': 'source.less'
+        "selector": "source.less"
     }
     word_re = None
     defaults = {}
