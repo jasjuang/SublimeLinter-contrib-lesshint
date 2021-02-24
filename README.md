@@ -7,7 +7,7 @@ SublimeLinter-contrib-lesshint
 This linter plugin for [SublimeLinter][docs] provides an interface to [lesshint](__linter_homepage__). It will be used with files that have the “__less__” syntax.
 
 ## Installation
-SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
+In order to use this plugin you should have installed at least SublimeLinter main version 3. The plugin should be compatible up to version 4.16. If SublimeLinter is not installed, please follow the instructions [here][installation].
 
 The package [LESS](https://packagecontrol.io/packages/LESS) must be installed to set proper syntax for less files in order to use this plugin.
 
